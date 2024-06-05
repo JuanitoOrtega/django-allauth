@@ -9,7 +9,7 @@ print(get_random_secret_key())
 
 ## collectstatic
 ```
-python manage.py collectstatic
+python manage.py collectstatic --noinput
 ```
 
 # Node
@@ -21,4 +21,7 @@ npm install tailwindcss
 ```
 ```
 npx tailwindcss init
+```
+```
+npm run tailwind
 ```
